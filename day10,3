@@ -1,0 +1,15 @@
+# number = [10,20,30,40]
+
+number = [10,20,30,40,11,16]
+
+is_sorted = True
+
+for i in range(len(number)-1):
+    if number[i] > number[i+1]:
+        is_sorted = False
+        break
+        
+if is_sorted:
+    print("the array is sorted")
+else:
+    print("the array is not sorted") 
