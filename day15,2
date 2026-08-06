@@ -1,0 +1,9 @@
+number = [10,40,33,45,66]
+
+count = 0
+
+for num in number:
+    if num % 2 == 0:
+        count +=1
+        
+print(f"the number of count even number is {count}")
